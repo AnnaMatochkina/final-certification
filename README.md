@@ -64,11 +64,11 @@
 
 2. Построение моделей машинного обучения:
 
-    - Logistic Regression
-    - KNeighbors
-    - Decision Tree
-    - Random Forest
-    - LGBM
+    - Логистическая регрессия (LogisticRegression)
+    - к- ближайших соседей (KNeighborsClassifier)
+    - Дерево решений (DecisionTreeClassifier)
+    - Случайный лес (RandomForestClassifier)
+    - Бустинг (LGBMClassifier)
 
 3. Выбор оптимальной модели: модель случайного леса при подборе гиперпараметров показала лучший результат точности на тестовых данных 0.9070 (max_depth=20, min_samples_leaf=2, min_samples_split=2, n_estimators=100). ROC-AUC на тестовой выборке: 0.8993, F1-score: 0.8528.
 
